@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Extractor</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url({% static 'bg1.jpg' %}) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .content {
+            width: 70%; /* occupy right half of the page */
+            margin-left: 200%; /* push the content to the right half */
+            text-align: center; /* center the text horizontally */
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .file-upload-button,
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        .file-upload-button {
+            background: transparent;
+            border: 2px solid #333;
+        }
+        .file-upload-button:hover,
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>PDF Extractor</h1>
+        </header>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

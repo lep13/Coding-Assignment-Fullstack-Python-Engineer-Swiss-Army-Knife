@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Extract PDF Data</h2>
+    <form method="post" enctype="multipart/form-data" action="{% url 'upload_file' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Extract</button>
+    </form>
+{% endblock %}
+
+
+
+
+
+

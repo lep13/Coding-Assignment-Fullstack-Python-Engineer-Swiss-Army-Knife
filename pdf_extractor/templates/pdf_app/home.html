@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Upload PDF File</h2>
+    <form method="post" enctype="multipart/form-data" action="{% url 'upload_file' %}">
+        {% csrf_token %}
+        <input type="file" id="pdf_file" name="pdf_file" style="display:none;">
+        <label for="pdf_file" class="file-upload-button">Choose File</label>
+        <br>
+        <button type="submit">Upload</button>
+    </form>
+
+    <style>
+        label.file-upload-button {
+            display: inline-block;
+            background: #8B6F47; /* Darker shade of E1CDA6 */
+            padding: 10px 20px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all .5s;
+            box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+        }
+        
+        label.file-upload-button:hover {
+            background: #6B5135; /* Even darker on hover */
+            box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+        }
+
+        button {
+            background: #333;
+            padding: 10px 20px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all .5s;
+            box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+        }
+        
+        button:hover {
+            background: #444; 
+            box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+        }
+    </style>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+

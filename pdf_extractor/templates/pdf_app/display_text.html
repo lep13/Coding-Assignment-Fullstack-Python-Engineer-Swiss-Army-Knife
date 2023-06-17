@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extracted Text</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        body {
+            background: url({% static 'img1.jpg' %}) no-repeat center center fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+            padding: 50px 0px 10px 50px;
+            margin: 0;
+            margin-bottom: 0;
+        }
+        pre {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            padding: 0px 20px 0 50px;
+            max-width: 50%;
+            word-wrap: break-word;
+            word-break: break-all;
+            margin-top: 0;
+            line-height: 1; /* Adjust the value to decrease line spacing */
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h1>Extracted Text</h1>
+    {% load custom_filters %}
+    <pre>
+        {% for line in text %}
+        {{ line|replace:"NEWLINE,<br>"|safe }}
+        {% endfor %}
+    </pre>
+</body>
+</html>
+
+
+
+
+
+
+
+
