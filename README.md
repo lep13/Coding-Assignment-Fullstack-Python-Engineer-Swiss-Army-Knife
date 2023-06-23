@@ -1,5 +1,14 @@
 # Image To Text Converter
 
+###PDF to Text
+https://github.com/lep13/Image-To-Text-Converter/assets/126688687/f7fc6d62-c357-4e5e-b2ea-662816d32cfc
+
+###PNG To Text
+https://github.com/lep13/Image-To-Text-Converter/assets/126688687/4d8771fb-600b-4080-83e7-48775256c6a5
+
+
+###JPEG To Text
+https://github.com/lep13/Image-To-Text-Converter/assets/126688687/5abaf903-f11e-4ad9-9f45-f8fc5b50f675
 
 ## PDF Data Extraction and Rapid Prototyping
 
