@@ -1,5 +1,7 @@
 # Image To Text Converter
 
+### This project is a user-friendly web application that employs OCR technology to extract text from images, enabling effortless conversion of scanned documents, photos, and handwritten notes into editable and searchable text.
+
 ### PDF to Text
 
 https://github.com/lep13/Image-To-Text-Converter/assets/126688687/f4de4b2f-807d-4064-a76a-43a3c7079271
