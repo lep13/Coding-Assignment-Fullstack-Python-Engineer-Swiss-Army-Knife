@@ -1,7 +1,10 @@
 # Image To Text Converter
 
 ###PDF to Text
-https://github.com/lep13/Image-To-Text-Converter/assets/126688687/f7fc6d62-c357-4e5e-b2ea-662816d32cfc
+
+https://github.com/lep13/Image-To-Text-Converter/assets/126688687/f4de4b2f-807d-4064-a76a-43a3c7079271
+
+
 
 ###PNG To Text
 https://github.com/lep13/Image-To-Text-Converter/assets/126688687/4d8771fb-600b-4080-83e7-48775256c6a5
