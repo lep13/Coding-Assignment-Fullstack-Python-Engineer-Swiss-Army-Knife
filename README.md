@@ -5,13 +5,17 @@
 https://github.com/lep13/Image-To-Text-Converter/assets/126688687/f4de4b2f-807d-4064-a76a-43a3c7079271
 
 
-
 ###PNG To Text
-https://github.com/lep13/Image-To-Text-Converter/assets/126688687/4d8771fb-600b-4080-83e7-48775256c6a5
+
+https://github.com/lep13/Image-To-Text-Converter/assets/126688687/5793dfe0-bdf3-4d5f-b8ea-3f97eb30bf7e
+
 
 
 ###JPEG To Text
-https://github.com/lep13/Image-To-Text-Converter/assets/126688687/5abaf903-f11e-4ad9-9f45-f8fc5b50f675
+
+https://github.com/lep13/Image-To-Text-Converter/assets/126688687/56d0206b-6e5e-484f-8955-0eeabeed9f1a
+
+
 
 ## PDF Data Extraction and Rapid Prototyping
 
