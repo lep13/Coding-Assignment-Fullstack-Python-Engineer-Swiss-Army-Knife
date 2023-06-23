@@ -1,6 +1,5 @@
 # Image To Text Converter
 
-https://drive.google.com/file/d/1XGYX7x50pr56fgykZPQiE6izt0vgSf7V/view?usp=sharing
 
 ## PDF Data Extraction and Rapid Prototyping
 
