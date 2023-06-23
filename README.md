@@ -1,11 +1,12 @@
-# Coding-Assignment-Fullstack-Python-Engineer-Swiss-Army-Knife
+# Image To Text Converter
+
+https://drive.google.com/file/d/1XGYX7x50pr56fgykZPQiE6izt0vgSf7V/view?usp=sharing
 
 ## PDF Data Extraction and Rapid Prototyping
 
 ### Part 1: Data Extraction
 
-#### Task
-The goal of this task is to create a Python script capable of extracting text from a given PDF document and saving the data into a CSV file. The PDF may contain both header data and tabular data.
+The goal of this part is to create a Python script capable of extracting text from a given PDF document and saving the data into a CSV file. The PDF may contain both header data and tabular data.
 
 #### Solution Overview
 To tackle this task, a Python script was developed that utilizes the PyPDF2 and tabula-py libraries for extracting the data. The script supports both PDF and image file types (JPEG, JPG, PNG) for data extraction.
@@ -32,8 +33,7 @@ The script generates a CSV file named `extracted_data.csv`, which contains the e
 
 ### Part 2: Rapid Prototyping
 
-#### Task
-The objective of this task is to design and develop a simple web application that allows users to upload a PDF file, extract data using the script from Part 1, and display the extracted data on the webpage.
+The objective of this part is to design and develop a simple web application that allows users to upload a PDF file, extract data using the script from Part 1, and display the extracted data on the webpage.
 
 #### Solution Overview
 For rapid prototyping, a Django web application was developed with the following components:
